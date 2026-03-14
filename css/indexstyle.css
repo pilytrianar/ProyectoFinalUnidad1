@@ -8,8 +8,8 @@ body {
   background-color: #111 !important;
 }
 
-.nav-link i{
-margin-right:6px;
+.nav-link i {
+  margin-right: 6px;
 }
 
 .logo-principal {
@@ -19,7 +19,7 @@ margin-right:6px;
 }
 
 .carousel-item img {
-  height: 350px;
+  height: 500px;
   object-fit: cover;
   filter: brightness(70%);
 }
@@ -30,10 +30,10 @@ margin-right:6px;
 }
 
 .carousel-caption {
-  background-color: rgba(0,0,0,0.35);
+  background-color: rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   padding: 10px;
-  bottom: 25%;
+  bottom: 20%;
 }
 
 .titulo-principal {
@@ -91,7 +91,20 @@ margin-right:6px;
   text-decoration: underline;
 }
 
-.logo-footer{
-height:60px;
-margin-bottom:10px;
+.logo-footer {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.tarjeta-beneficio {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+.icono-beneficio {
+  font-size: 2rem;
+  color: #ff4d6d;
+  margin-bottom: 10px;
+  display: inline-block;
 }

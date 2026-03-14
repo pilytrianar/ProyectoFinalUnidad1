@@ -8,8 +8,8 @@ body {
   background-color: #111 !important;
 }
 
-.nav-link i{
-margin-right:6px;
+.nav-link i {
+  margin-right: 6px;
 }
 
 .titulo-principal {
@@ -70,4 +70,27 @@ margin-right:6px;
 .pie-pagina i {
   margin-right: 8px;
   color: #ffd93d;
+}
+
+.logo-footer {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+#carouselPlanes img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.tarjeta-beneficio {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+.icono-beneficio {
+  font-size: 2rem;
+  color: #3b82f6;
+  margin-bottom: 10px;
+  display: inline-block;
 }

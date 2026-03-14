@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="../CSS/indexstyle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
@@ -28,37 +27,34 @@
             <div class="collapse navbar-collapse" id="menuNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html"><i class="bi bi-house-door"></i>Inicio</a>
+                        <a class="nav-link active" href="index.html"><i class="bi bi-house-door"></i> Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina.html"><i class="bi bi-star"></i>Servicios</a>
+                        <a class="nav-link" href="pagina.html"><i class="bi bi-star"></i> Servicios</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- LOGO / PORTADA -->
-    <header class="container py-5 text-center">
-        <!-- CARRUSEL -->
+    <!-- ENCABEZADO -->
+    <header class="container py-4 text-center">
+        <h1 class="titulo-principal">Gamenglish</h1>
+        <p class="subtitulo">Aprender inglés jugando</p>
+    </header>
+
+    <!-- CARRUSEL -->
     <section class="container mb-5 d-flex justify-content-center">
         <div id="carouselGamenglish" class="carousel slide shadow rounded overflow-hidden w-75" data-bs-ride="carousel">
             <div class="carousel-indicators">
-
                 <button type="button" data-bs-target="#carouselGamenglish" data-bs-slide-to="0" class="active"></button>
-
                 <button type="button" data-bs-target="#carouselGamenglish" data-bs-slide-to="1"></button>
-
                 <button type="button" data-bs-target="#carouselGamenglish" data-bs-slide-to="2"></button>
-
                 <button type="button" data-bs-target="#carouselGamenglish" data-bs-slide-to="3"></button>
-
                 <button type="button" data-bs-target="#carouselGamenglish" data-bs-slide-to="4"></button>
-
             </div>
 
             <div class="carousel-inner">
-
                 <div class="carousel-item active">
                     <img src="../images/carrusel5.png" class="d-block w-100" alt="Bienvenidos a Gamenglish">
                     <div class="carousel-caption">
@@ -98,7 +94,6 @@
                         <p>Actividades educativas y recreativas.</p>
                     </div>
                 </div>
-
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselGamenglish"
@@ -112,8 +107,18 @@
             </button>
         </div>
     </section>
-    </header>
 
+    <!-- INTRODUCCION -->
+    <section class="container py-4 text-center">
+        <h2 class="seccion-titulo">Una propuesta educativa diferente</h2>
+        <p class="mx-auto" style="max-width: 900px;">
+            En Gamenglish creemos que el aprendizaje del inglés puede ser una experiencia cercana, divertida y
+            significativa. Por eso, desarrollamos espacios pensados para que los niños exploren el idioma a través
+            del juego, la interacción y actividades adaptadas a su etapa de desarrollo.
+        </p>
+        <a href="pagina.html" class="btn boton-personalizado me-2">Conocer servicios</a>
+        <a href="#contacto" class="btn btn-outline-dark">Solicitar información</a>
+    </section>
 
     <!-- SECCION 1 -->
     <section class="container py-5">
@@ -137,6 +142,35 @@
         </div>
     </section>
 
+    <!-- BENEFICIOS -->
+    <section class="container py-5">
+        <div class="row text-center g-4">
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-controller icono-beneficio"></i>
+                    <h4>Aprendizaje lúdico</h4>
+                    <p>Los niños aprenden inglés mediante juegos, exploración y experiencias significativas.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-ear icono-beneficio"></i>
+                    <h4>Estimulación temprana</h4>
+                    <p>Se fortalece la escucha y la familiarización con sonidos del idioma desde edades tempranas.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-emoji-smile icono-beneficio"></i>
+                    <h4>Experiencias significativas</h4>
+                    <p>El aprendizaje se conecta con la vida cotidiana del niño de manera natural y motivadora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- SECCION 2 -->
     <section class="container py-5">
         <div class="row align-items-center g-4 flex-md-row-reverse">
@@ -154,6 +188,7 @@
                     <li>Asesoría educativa</li>
                     <li>Programas vacacionales</li>
                 </ul>
+                <a href="pagina.html" class="btn boton-personalizado mt-2">Ver planes y modalidades</a>
             </div>
             <div class="col-12 col-md-6">
                 <img src="../images/carrusel4.png" alt="Servicios de Gamenglish" class="img-fluid rounded sombra-img">
@@ -185,7 +220,7 @@
     </section>
 
     <!-- SECCION 4 -->
-    <section class="container py-5">
+    <section class="container py-5" id="contacto">
         <div class="row g-4">
             <div class="col-12 col-md-6">
                 <h2 class="seccion-titulo">Contáctanos</h2>
@@ -238,34 +273,25 @@
 
                     <p>
                         <i class="bi bi-facebook"></i>
-                        <a href="https://www.facebook.com/p/Gamenglish-Oficial-61559734379433/" target="_blank">
-                            Gamenglish Oficial
-                        </a>
+                        <a href="#" target="_blank">Gamenglish Oficial</a>
                     </p>
-
 
                     <p>
                         <i class="bi bi-instagram"></i>
-                        <a href="https://www.instagram.com/gamenglishoficial/" target="_blank">
-                            @gamenglishoficial
-                        </a>
+                        <a href="#" target="_blank">@gamenglishoficial</a>
                     </p>
-
 
                     <p>
                         <i class="bi bi-whatsapp"></i>
-                        <a href="https://wa.me/573045642190" target="_blank">
-                            +57 304 564 2190
-                        </a>
+                        <a href="#" target="_blank">+57 304 564 2190</a>
                     </p>
-
                 </div>
 
                 <div class="col-12 col-md-4 mb-3">
                     <h5>Links de interés</h5>
                     <p><a href="index.html">Inicio</a></p>
                     <p><a href="pagina.html">Servicios</a></p>
-                    <p><a href="https://wa.me/573045642190">Contacto</a></p>
+                    <p><a href="#contacto">Contacto</a></p>
                 </div>
             </div>
         </div>

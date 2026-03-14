@@ -29,10 +29,10 @@
             <div class="collapse navbar-collapse" id="menuNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html"><i class="bi bi-house-door"></i>Inicio</a>
+                        <a class="nav-link" href="index.html"><i class="bi bi-house-door"></i> Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pagina.html"><i class="bi bi-star"></i>Servicios</a>
+                        <a class="nav-link active" href="pagina.html"><i class="bi bi-star"></i> Servicios</a>
                     </li>
                 </ul>
             </div>
@@ -44,6 +44,18 @@
         <h1 class="titulo-principal">Servicios de Gamenglish</h1>
         <p class="subtitulo">Opciones de aprendizaje dinámicas, divertidas y adaptadas a cada necesidad.</p>
     </header>
+
+    <!-- INTRODUCCION -->
+    <section class="container py-4 text-center">
+        <h2 class="seccion-titulo">Conoce nuestras modalidades</h2>
+        <p class="mx-auto" style="max-width: 900px;">
+            En Gamenglish ofrecemos distintas experiencias de aprendizaje pensadas para acompañar a los niños y sus
+            familias de manera flexible. Nuestro propósito es brindar opciones educativas creativas, cercanas y
+            significativas, ajustadas a diferentes contextos y necesidades.
+        </p>
+        <a href="#tabla-servicios" class="btn boton-personalizado me-2">Ver tabla de servicios</a>
+        <a href="#solicitud" class="btn btn-outline-dark">Solicitar información</a>
+    </section>
 
     <!-- SECCION 1 -->
     <section class="container py-5">
@@ -64,20 +76,16 @@
                     <li>Programas vacacionales</li>
                 </ul>
             </div>
+
             <div class="col-12 col-md-6">
-
                 <div id="carouselPlanes" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
-
                     <div class="carousel-inner">
-
                         <div class="carousel-item active">
                             <img src="../images/planes.png" class="d-block w-100 rounded" alt="Planes presenciales">
                         </div>
-
                         <div class="carousel-item">
                             <img src="../images/planes2.png" class="d-block w-100 rounded" alt="Planes domiciliarios">
                         </div>
-
                     </div>
 
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlanes"
@@ -89,15 +97,42 @@
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </button>
-
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- BENEFICIOS / MODALIDADES -->
+    <section class="container py-5">
+        <div class="row text-center g-4">
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-people-fill icono-beneficio"></i>
+                    <h4>Presencial</h4>
+                    <p>Espacios de aprendizaje en playground para que los niños exploren el inglés de manera dinámica y cercana.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-house-heart-fill icono-beneficio"></i>
+                    <h4>Domiciliario</h4>
+                    <p>Clases desarrolladas en la comodidad del hogar, adaptadas al ritmo y necesidades de cada familia.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="p-4 h-100 tarjeta-beneficio">
+                    <i class="bi bi-laptop-fill icono-beneficio"></i>
+                    <h4>Virtual</h4>
+                    <p>Alternativas online para continuar el proceso de aprendizaje desde diferentes lugares y contextos.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- SECCION 2 -->
-    <section class="container py-5">
+    <section class="container py-5" id="tabla-servicios">
         <div class="row g-4">
             <div class="col-12">
                 <h2 class="seccion-titulo text-center mb-4">Tabla de servicios</h2>
@@ -145,6 +180,9 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="text-center mt-3">
+                    <a href="#solicitud" class="btn boton-personalizado">Quiero más información</a>
+                </div>
             </div>
         </div>
     </section>
@@ -161,16 +199,14 @@
                 </p>
 
                 <div class="ratio ratio-4x3 rounded overflow-hidden sombra-img">
-
                     <video class="w-100 h-100" controls>
                         <source src="../videos/arenero.mp4" type="video/mp4">
                         Tu navegador no soporta video HTML5.
                     </video>
-
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" id="solicitud">
                 <h2 class="seccion-titulo">Solicita información</h2>
                 <form class="formulario-gamenglish">
                     <div class="mb-3">
@@ -206,12 +242,36 @@
         </div>
     </section>
 
+    <!-- SECCION 4 -->
+    <section class="container py-5">
+        <div class="row align-items-center g-4">
+            <div class="col-12 col-md-6">
+                <h2 class="seccion-titulo">¿Por qué elegir Gamenglish?</h2>
+                <p>
+                    Nuestra propuesta combina acompañamiento cercano, estrategias lúdicas y experiencias adaptadas
+                    a la edad de los niños. Buscamos que el aprendizaje del inglés no se perciba como una obligación,
+                    sino como una vivencia positiva que despierte curiosidad y motivación.
+                </p>
+                <ul>
+                    <li>Metodología centrada en el juego</li>
+                    <li>Flexibilidad en las modalidades de atención</li>
+                    <li>Acompañamiento a familias y cuidadores</li>
+                    <li>Espacios creativos y significativos</li>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <img src="../images/servicios.png" alt="Portafolio de servicios" class="img-fluid rounded sombra-img">
+            </div>
+        </div>
+    </section>
+
     <!-- FOOTER -->
     <footer class="pie-pagina mt-5">
         <div class="container py-4">
             <div class="row text-center text-md-start">
                 <div class="col-12 col-md-4 mb-3">
-                    <h5>Gamenglish</h5>
+                    <img src="../images/logo.jpg" alt="Gamenglish logo" class="logo-footer">
                     <p>Espacio educativo para aprender inglés jugando.</p>
                 </div>
 
@@ -220,23 +280,17 @@
 
                     <p>
                         <i class="bi bi-facebook"></i>
-                        <a href="https://www.facebook.com/p/Gamenglish-Oficial-61559734379433/" target="_blank">
-                            Gamenglish Oficial
-                        </a>
+                        <a href="#" target="_blank">Gamenglish Oficial</a>
                     </p>
 
                     <p>
                         <i class="bi bi-instagram"></i>
-                        <a href="https://www.instagram.com/gamenglishoficial/" target="_blank">
-                            @gamenglishoficial
-                        </a>
+                        <a href="#" target="_blank">@gamenglishoficial</a>
                     </p>
 
                     <p>
                         <i class="bi bi-whatsapp"></i>
-                        <a href="https://wa.me/573045642190" target="_blank">
-                            +57 304 564 2190
-                        </a>
+                        <a href="#" target="_blank">+57 304 564 2190</a>
                     </p>
                 </div>
 
@@ -244,7 +298,7 @@
                     <h5>Links de interés</h5>
                     <p><a href="index.html">Inicio</a></p>
                     <p><a href="pagina.html">Servicios</a></p>
-                    <p><a href="https://wa.me/573045642190">Contacto</a></p>
+                    <p><a href="#solicitud">Contacto</a></p>
                 </div>
             </div>
         </div>
