@@ -18,6 +18,7 @@ app.use(express.json());
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/solicitudes", require("./routes/solicitudRoutes"));
+app.use("/api/productos", require("./routes/productRoutes"));
 
 // Ruta principal
 app.get("/", (req, res) => {
